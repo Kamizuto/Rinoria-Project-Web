@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinoria - Your Gateway to Gaming</title>
+    
+    <meta name="description" content="Rinoria adalah platform gaming terdepan dengan ribuan game, komunitas aktif, dan akses tanpa batas. Bergabunglah sekarang!">
+    <link rel="icon" href="Rinoria V1/Rinoria.png" class="image-x-icon" type="image/x-icon">
+    
+    <link rel="stylesheet" href="rinoriacss.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+    <!--Maskot Robot 3D-->
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.64/build/spline-viewer.js"></script>
+    <!--Javascript Hamburger Button-->
+    <script src="javarinoria.js" defer></script>
+    
+
+</head>
+<body>
+    <audio id="clickSound" src="Assets/rinoria sound effect.mp3" preload="auto"></audio> <!--Sound effect logo-->
+
+    <header class="header-rinoria" id="home">
+        <a href="#" class="logo" aria-label="Rinoria Homepage">
+            <img id="logoRinoria" src="Assets/Rinoria.png" alt="" class="logo-icon">
+        </a>
+        <!--Navigasi-->
+        <nav class="main-nav" id="main-nav">
+            <a href="#header">Home</a>
+            <a href="#about">About</a>
+            <a href="#product">Product</a>
+            <a href="#service">Service</a>
+            <a href="#news">News</a>
+            <a href="#footer">Kontak</a>
+        </nav>
+        
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation" aria-controls="main-nav" aria-expanded="false">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+        </button>
+
+        <!--Deskripsi Header-->
+        <div class="hero-text">
+            <p class="sub-headline">Legend of Arkania tersedia di Rinoria</p>
+            <h1 class="headline-primary">Your Gateway to Gaming</h1>
+            <h2 class="headline-secondary">Rinoria</h2>
+            <p class="description">
+                Platform di mana setiap pemain bisa menemukan petualangan baru, cerita epik, dan pengalaman bermain yang tak terlupakan.
+            </p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">PELAJARI</a>
+                <a href="#" class="btn btn-secondary active"><i class="fas fa-play"></i> MULAI</a>
+            </div>
+        </div>
+
+        <!--Url Maskot-->
+        <div class="hero-image">
+            <spline-viewer url="https://prod.spline.design/pwHkU99qCQ7EyjgC/scene.splinecode"></spline-viewer>
+        </div>
+    </header>
+
+    <!--About Rnoria-->
+    <div class="about-section" id="about">
+    <div class="video-container-about">
+        <video src="Assets/arkaniatrailer.mp4" autoplay loop muted></video>
+    </div>
+    <div class="text-content-about">
+        <h2>Rinoria – Satu Dunia, Sejuta Petualangan</h2>
+        <p>
+            Rinoria lahir dari keyakinan bahwa dunia game bukan sekadar hiburan, tapi juga ruang untuk terhubung, berkembang, dan menjelajahi imajinasi tanpa batas. Dengan ribuan pilihan game, komunitas aktif, serta fitur yang memudahkan, Rinoria menghadirkan pengalaman bermain yang lebih dekat, lebih seru, dan lebih berarti.
+
+Kami menghubungkan pemain dengan berbagai dunia virtual—dari fantasi penuh keajaiban hingga aksi yang memacu adrenalin—memberi kesempatan untuk semua orang menemukan cerita dan petualangan mereka sendiri.
+        </p>
+        <a href="#" class="cta-button-about">Tentang Kami</a>
+    </div>
+</div>
+
+    <main id="features" class="features-section">
+        <div class="container">
+            <div class="section-title" id="product">
+                <span>Game Teratas Terlaris</span>
+                <h2>Bergabunglah dalam Perjalanan Epik</h2>
+            
+            <div class="slider">
+        <div class="list">
+            <div class="item active">
+                <img src="Assets/ArkaniaBattle.png">
+                <div class="content">
+                    <p>Fantasy/RPG</p>
+                    <h2>Legend of Arkania</h2>
+                    <p>
+                        Sebuah kisah fantasi epik tentang dunia kuno yang dipenuhi sihir, makhluk legendaris, dan peperangan antar kerajaan. Di tanah Arkania, takdir ditentukan oleh keberanian, pengkhianatan, dan kekuatan para pahlawan yang berjuang menjaga keseimbangan antara cahaya dan kegelapan.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaDungeon.png">
+                <div class="content">
+                    <p>Dungeon/Dark Fantasy</p>
+                    <h2>Eclipse of the Abyss</h2>
+                    <p>
+                        Masuki kedalaman dungeon yang dipenuhi kegelapan purba dan makhluk mengerikan. Menjelajahi labirin bawah tanah, mengungkap rahasia terlarang, serta melawan bos legendaris yang menjaga artefak kuno. Dengan sistem loot acak, pertarungan intens, dan pilihan moral yang menentukan akhir cerita, setiap langkah di dungeon membawa risiko sekaligus peluang menuju kejayaan… atau kehancuran.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaExploration.png">
+                <div class="content">
+                    <p>Adventure/Action</p>
+                    <h2>Whispers of Elven Dawn</h2>
+                    <p>
+                        Seorang elf pengembara mengikuti bisikan fajar yang memanggilnya melewati hutan purba, reruntuhan kuno, dan bayangan kegelapan. Dalam perjalanannya, ia mencari asal-usul bangsanya sekaligus cahaya purba yang hampir padam. Sebuah kisah tentang takdir, pengorbanan, dan harapan yang lahir di ujung malam.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaPoster.png">
+                <div class="content">
+                    <p>Sandbox/Crafting</p>
+                    <h2>Everdust Realms</h2>
+                    <p>
+                        Bangun dunia tak terbatas dari blok-blok ajaib, jelajahi gua misterius, dan bertahan hidup melawan makhluk malam. Setiap sudut penuh kebebasan: ciptakan rumah, kerajaan, atau dunia impianmu sendiri dalam petualangan tanpa akhir.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaVillage.png">
+                <div class="content">
+                    <p>Simulation/Sosial</p>
+                    <h2>Meadowlight Tales</h2>
+                    <p>
+                        Nikmati hidup sederhana di pedesaan: bercocok tanam, merawat hewan, dan membangun persahabatan dengan penduduk desa. Temukan kehangatan, cinta, dan arti kebahagiaan melalui musim demi musim.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!--Produk Slideshow-->
+        <div class="thumbnail">
+            <div class="item active">
+                <img src="Assets/ArkaniaBattle.png">
+                <div class="content">
+                    Legend of Arkania
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaDungeon.png">
+                <div class="content">
+                    Eclipse of the Abyss
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaExploration.png">
+                <div class="content">
+                    Whispers of Elven Dawn
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaPoster.png">
+                <div class="content">
+                    Everdust Realms
+                </div>
+            </div>
+            <div class="item">
+                <img src="Assets/ArkaniaVillage.png">
+                <div class="content">
+                    Meadowlight Tales
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Service-->
+<section class="services-section" id="service">
+        <div class="container-service">
+            <div class="section-title-service">
+                <span>Layanan Andalan Kami</span>
+                <h2>Ekosistem Gaming Terlengkap</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.5 4.5c.28 0 .5.22.5.5v14a.5.5 0 0 1-.5.5H3.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 1 .5-.5h17zm-1.5-2H5a2.5 2.5 0 0 0-2.5 2.5v13A2.5 2.5 0 0 0 5 20h14a2.5 2.5 0 0 0 2.5-2.5V5A2.5 2.5 0 0 0 19 2.5zM15 6H9a1 1 0 0 0-1 1v2a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1zm-8 6h3v5H7v-5zm5 0h3v5h-3v-5z"/>
+                    </svg>
+                    <h3>Rinoria Store</h3>
+                    <p>Akses ribuan game original dari berbagai genre. Dapatkan penawaran eksklusif dan update terbaru langsung di genggaman Anda.</p>
+                </div>
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 14c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-6 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm-6 0c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm12-4c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zm-6 0c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zm-6 0c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"/>
+                    </svg>
+                    <h3>Community Hub</h3>
+                    <p>Terhubung dengan jutaan gamer. Temukan tim, diskusikan strategi, dan bagikan momen epik Anda bersama komunitas.</p>
+                </div>
+                <div class="service-card">
+                    <svg class="service-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 4H3a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm-1 14H4a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1zm-4-4a2 2 0 1 1-4 0 2 2 0 0 1 4 0z"/>
+                    </svg>
+                    <h3>Rinoria Pay</h3>
+                    <p>Dompet digital praktis untuk semua transaksi game. Top-up mudah dan pembayaran aman untuk semua kebutuhan gaming Anda.</p>
+                </div>
+            </div>
+
+            <!--Berita-->
+<section class="news-section" id="news">
+        <div class="container">
+            <h2 class="section-title-left">Berita</h2>
+            <div class="news-grid">
+
+                <article class="news-card">
+                    <a href="#" class="card-link">
+                        <div class="card-image">
+                            <img src="Assets/berita 1.png" alt="Legend of Arkania">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="meta-tag">Legend of Arkania</span>
+                                <span class="meta-date">September 26, 2025</span>
+                            </div>
+                            <h3>Legend of Arkania: Update Musim Panas Hadir dengan Hero Baru</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card">
+                    <a href="#" class="card-link">
+                        <div class="card-image">
+                            <img src="Assets/berita 2.png" alt="CyberRunners 2077">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="meta-tag">CyberRunners 2077</span>
+                                <span class="meta-date">September 22, 2025</span>
+                            </div>
+                            <h3>CyberRunners 2077: Open Beta Dimulai Minggu Ini</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card">
+                    <a href="#" class="card-link">
+                        <div class="card-image">
+                            <img src="Assets/berita 3.png" alt="Diskon Weekend">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="meta-tag">Rinoria Store</span>
+                                <span class="meta-date">September 19, 2025</span>
+                            </div>
+                            <h3>Diskon Akhir Pekan: Potongan Harga Hingga 75%</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="news-card">
+                    <a href="#" class="card-link">
+                        <div class="card-image">
+                             <img src="Assets/berita 4.png" alt="Event Komunitas">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="meta-tag">Community Hub</span>
+                                <span class="meta-date">September 15, 2025</span>
+                            </div>
+                            <h3>Kontes Screenshot Bertema "Pahlawan Legendaris"</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#" class="card-link">
+                        <div class="card-image">
+                            <img src="Assets/berita 5.png" alt="Rinoria Update">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="meta-tag">Rinoria Update</span>
+                                <span class="meta-date">September 12, 2025</span>
+                            </div>
+                            <h3>Developer Diary: Apa yang Akan Datang di Update Berikutnya?</h3>
+                        </div>
+                    </a>
+                </article>
+                <article class="news-card">
+                    <a href="#" class="card-link">
+                        <div class="card-image">
+                            <img src="Assets/berita 6.png" alt="Turnamen Rinoria">
+                        </div>
+                        <div class="card-content">
+                            <div class="card-meta">
+                                <span class="meta-tag">Esports</span>
+                                <span class="meta-date">September 9, 2025</span>
+                            </div>
+                            <h3>Saksikan Grand Final Turnamen Rinoria Champions League!</h3>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+            <a href="#" class="view-more-btn">View More</a>
+        </div>
+    </section>
+
+        </div>
+    </section>
+
+            </div>
+    </main>
+
+    <!--Footer & Kontak-->
+    <footer id="footer" class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>RINORIA</h4>
+                <p>Platform gaming terdepan yang didedikasikan untuk memberikan pengalaman bermain terbaik bagi para gamer di seluruh dunia.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Facebook"><img src="Assets/facebook.svg" class="icon-socialmedia"></a>
+                    <a href="#" aria-label="Twitter"><img src="Assets/twitter.svg" class="icon-socialmedia"></a>
+                    <a href="#" aria-label="Instagram"><img src="Assets/instagram.svg" class="icon-socialmedia"></a>
+                    <a href="#" aria-label="LinkedIn"><img src="Assets/linkedin.png" class="icon-socialmedia"></a>
+                </div>
+            </div>
+
+
+            <div class="footer-col">
+                <h4>Link Cepat</h4>
+                <ul>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Karir</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Hubungi Kami</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Jl. Panglima Sudirman No.125, Sawah, Banjarmendalan, Kec. Lamongan, Kabupaten Lamongan, Jawa Timur 62212</p>
+                <p><i class="fas fa-envelope"></i> support@rinoria.com</p>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63328.91585864539!2d112.3747196512643!3d-7.120005218559013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77e20f12a34853%3A0x4027a76e35320b0!2sLamongan%2C%20Lamongan%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1663999999999!5m2!1sen!2sid" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Rinoria. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+<!--Javascript Produk Slideshow-->
+    <script src="javarinoria-slider.js"></script>
+</html>
